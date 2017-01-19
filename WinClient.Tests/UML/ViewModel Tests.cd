@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Store.xUnit.Window1ViewModelTest">
+    <Position X="1" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEACAAIAgAAAAAAQAAAQAAAAAAARAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Window1ViewModelTest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="productModelMock" />
+      <Field Name="viewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Moq.Mock&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVVM.ViewModel.Window1ViewModel">
+    <Position X="6.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

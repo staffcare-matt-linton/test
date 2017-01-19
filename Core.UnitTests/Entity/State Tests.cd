@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Core.UnitTests.Entity.NormalGoodTest">
+    <Position X="0.75" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\NormalGoodTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitTests.Entity.ProductTest">
+    <Position X="0.75" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAABEAAAAAAACAAAAAA=</HashCode>
+      <FileName>Entity\ProductTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core.UnitTests.Entity.VeblenGoodTest">
+    <Position X="0.75" Y="4.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity\VeblenGoodTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

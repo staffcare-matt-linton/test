@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "AjaxProductList";
+}
+<h2>Ajax</h2>
+
+@using (Ajax.BeginForm("_search", "shopping",
+        new AjaxOptions { UpdateTargetId = "searchResults" }))
+{
+    <input name="partOfName" id="search" type="text" />
+    <input type="submit" value="Search" />
+}
+
+<div id="searchResults"></div>
+
+@section Scripts {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js" type="text/javascript"></script>
+    <script src="~/Scripts/search.js" type="text/javascript"></script>
+}
+
+
+
+

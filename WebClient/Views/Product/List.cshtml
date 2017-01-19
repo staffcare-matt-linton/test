@@ -1,0 +1,23 @@
+﻿@using Core.Entity
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List</title>
+</head>
+<body>
+    <table>        
+            @foreach (Product product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.CostPrice.ToString("C")</td>
+                    <td>@product.RetailPrice.ToString("C")</td>
+                </tr>
+            }        
+    </table>
+</body>
+</html>
